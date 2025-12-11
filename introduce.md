@@ -39,13 +39,14 @@
 **담당 역할:** 모델 선정 및 검증, 앙상블 구현, 하이퍼파라미터 튜닝  
 **사용 기술:** Python, PyTorch, KoBERT, Transformers, Scikit-learn
 
-![KoBERT 모델 평가](KoBERT_Model%20Evaluation.jpeg)
-
 **[상세 내용]**
 - **모델 선정:** 한국어 토큰화와 문맥 이해에 특화된 SKT KoBERT를 베이스 모델로 선정하여 학습 효율 증대
 - **성능 개선 (Ensemble):** 입력 시퀀스 길이 제한에 따른 정보 손실 방지를 위해, 서로 다른 길이(384, 512)로 학습된 모델의 예측 확률을 평균 내는 앙상블 기법 적용 (F1-Score 향상)
 - **최적화:** 데이터 클래스 불균형 해소를 위해 Weighted Loss 함수 적용 및 Loss Curve 분석을 통한 과적합(Overfitting) 방지
 - **성과:** 최종 테스트 정확도(Accuracy) **0.9691**, Macro-F1 **0.9562** 달성 및 **교내 데이터사이언스 모델링 경진대회 우수상 수상**
+
+![KoBERT 모델 평가](KoBERT_Model%20Evaluation.jpeg)
+- 🔗 **[소스 코드 보러가기 (final_ver.ipynb)](https://github.com/YSHHAN36565362/univ-data-science-portfolio/blob/main/2025-2/kobert-paper-classifier/final_ver.ipynb)**
 
 <br>
 

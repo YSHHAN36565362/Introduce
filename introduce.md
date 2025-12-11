@@ -31,7 +31,7 @@
 - **데이터 통합:** 고용행정통계(EIS)와 워크넷의 상이한 데이터 구조를 통합·전처리하여 분석 가능한 데이터 마트 구축
 
 ![대시보드 미리보기](dashboard_preview.png)
-
+🔗 **[소스 코드 보러가기 (0201_final_code.py)](https://github.com/YSHHAN36565362/univ-data-science-portfolio/blob/main/2025-2/job-market-trend-dashboard-korea/0201_final_code.py)**
 <br>
 
 ### 2. KoBERT 기반 논문 주제 자동 분류 모델

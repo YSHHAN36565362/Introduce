@@ -39,6 +39,8 @@
 **담당 역할:** 모델 선정 및 검증, 앙상블 구현, 하이퍼파라미터 튜닝  
 **사용 기술:** Python, PyTorch, KoBERT, Transformers, Scikit-learn
 
+![KoBERT 모델 평가](KoBERT_Model%20Evaluation.jpeg)
+
 **[상세 내용]**
 - **모델 선정:** 한국어 토큰화와 문맥 이해에 특화된 SKT KoBERT를 베이스 모델로 선정하여 학습 효율 증대
 - **성능 개선 (Ensemble):** 입력 시퀀스 길이 제한에 따른 정보 손실 방지를 위해, 서로 다른 길이(384, 512)로 학습된 모델의 예측 확률을 평균 내는 앙상블 기법 적용 (F1-Score 향상)
